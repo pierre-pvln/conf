@@ -1,4 +1,4 @@
-# confvpn
+# conf
 
 for P class
 ```
