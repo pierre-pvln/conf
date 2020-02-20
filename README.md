@@ -9,8 +9,9 @@ git init
 git remote add origin git@github.com:pierre-pvln/conf.git
 git pull origin master
 ```
+for A class
 Ssh to vpn server<br>
-Then get download script for A node
+Then get download script for a class
 ```
 mkdir --parents ~/vpn/conf
 cd ~/vpn/conf
