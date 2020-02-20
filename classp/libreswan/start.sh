@@ -1,6 +1,7 @@
 #!/bin/bash
 #
-sudo service ipsec start
+. init.sh
+sudo service ipsec restart
 #sudo service network restart
 
 #DONE
