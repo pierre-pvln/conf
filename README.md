@@ -13,7 +13,7 @@ git pull origin master
 Ssh to vpn server<br>
 Then get download script for a class
 ```
-mkdir --parents ~/vpn/conf
+mkdir --parents ~/vpn/conf/classa/openswan
 cd ~/vpn/conf
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/openswan/get_it.sh -O get_it.sh
 chmod +x get_it.sh
