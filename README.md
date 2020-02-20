@@ -14,7 +14,7 @@ Ssh to vpn server<br>
 Then get download script for a class
 ```
 mkdir --parents ~/vpn/conf/classa/openswan
-cd ~/vpn/conf
+cd  ~/vpn/conf/classa/openswan
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/openswan/get_it.sh -O get_it.sh
 chmod +x get_it.sh
 . get_it.sh
