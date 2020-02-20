@@ -1,6 +1,9 @@
 #!/bin/bash
 
 #get ipsec baseline configuration file
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/openswan/update_get_it.sh -O ~/vpn/conf/classa/openswan/update_get_it.sh
+
+#get ipsec baseline configuration file
 wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/openswan/ipsec.conf -O ~/vpn/conf/classa/openswan/ipsec.conf
 
 #get specific ipsec configuration file
