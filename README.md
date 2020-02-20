@@ -9,3 +9,13 @@ git init
 git remote add origin git@github.com:pierre-pvln/conf.git
 git pull origin master
 ```
+Ssh to vpn server<br>
+Then get download script for A node
+```
+mkdir --parents ~/vpn/conf
+cd ~/vpn/conf
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/a/get_it.sh -O get_it.sh
+chmod +x get_it.sh
+. get_it.sh
+
+```
