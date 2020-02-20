@@ -5,6 +5,6 @@
 . settings
 #
 #
-sudo nmap -p 22,500,4500 $classpIP -Pn -sU -sT
+sudo nmap -p 22,500,4500 $classaIP -Pn -sU -sT
 
 #DONE
