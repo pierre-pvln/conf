@@ -8,6 +8,9 @@ sudo cp ipsec.conf /etc/ipsec.conf
 sudo cp ClassA-to-RPI4.conf /etc/ipsec.d/ClassA-to-RPI4.conf
 sudo cp ClassA-to-RPI4.secrets /etc/ipsec.d/ClassA-to-RPI4.secrets
 
+#set override configuration
+sudo cp 90-override.conf /etc/sysctl.d/90-override.conf
+
 #set scripts to execution mode
 sudo chmod +x ~/vpn/conf/classa/openswan/*.sh
 
