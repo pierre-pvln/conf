@@ -11,6 +11,6 @@ sudo cp ClassA-to-RPI4.secrets /etc/ipsec.d/ClassA-to-RPI4.secrets
 #set scripts to execution mode
 sudo chmod +x ~/vpn/conf/classa/openswan/*.sh
 
-sudo cp sysctl.conf /etc/sysctl.conf
+#sudo cp sysctl.conf /etc/sysctl.conf
 
 #DONE
