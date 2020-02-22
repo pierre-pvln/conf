@@ -5,6 +5,6 @@
 . settings
 #
 #
-sudo tcpdump -n '(udp port 500 or udp port 4500 or tcp port 500 ) and (host $classaIP or host 10.0.0.5 or host 192.168.2.18 or host $classpIP)'
+sudo tcpdump -n '(udp port 500 or udp port 4500 or tcp port 500 ) and (host '"$classaIP"' or host 10.0.0.5 or host 192.168.2.18 or host '"$classpIP"')'
 
 # DONE
