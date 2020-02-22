@@ -15,9 +15,9 @@ Then get download script for a class
 ```
 mkdir --parents ~/vpn/conf/classa/libreswan
 cd  ~/vpn/conf/classa/libreswan
-wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/libreswan/get_it.sh -O get_it.sh
-chmod +x get_it.sh
-. get_it.sh
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/libreswan/get_it2.sh -O get_it2.sh
+chmod +x get_it2.sh
+. get_it2.sh
 
 ```
 ## for A class openswan
