@@ -9,8 +9,19 @@ git init
 git remote add origin git@github.com:pierre-pvln/conf.git
 git pull origin master
 ```
-## for A class
-Ssh to vpn server<br>
+## for A class libreswan
+ssh to vpn server<br>
+Then get download script for a class
+```
+mkdir --parents ~/vpn/conf/classa/libreswan
+cd  ~/vpn/conf/classa/libreswan
+wget -nv https://raw.githubusercontent.com/pierre-pvln/conf/master/classa/libreswan/get_it.sh -O get_it.sh
+chmod +x get_it.sh
+. get_it.sh
+
+```
+## for A class openswan
+ssh to vpn server<br>
 Then get download script for a class
 ```
 mkdir --parents ~/vpn/conf/classa/openswan
