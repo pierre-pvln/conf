@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/vpn/conf/classa/openswan
+cd ~/vpn/conf/classa/libreswan
 #set ipsec baseline configuration file
 sudo cp ipsec.conf /etc/ipsec.conf
 
@@ -12,7 +12,7 @@ sudo cp ClassA-to-RPI4.secrets /etc/ipsec.d/ClassA-to-RPI4.secrets
 sudo cp 90-override.conf /etc/sysctl.d/90-override.conf
 
 #set scripts to execution mode
-sudo chmod +x ~/vpn/conf/classa/openswan/*.sh
+sudo chmod +x ~/vpn/conf/classa/libreswan/*.sh
 
 #sudo cp sysctl.conf /etc/sysctl.conf
 

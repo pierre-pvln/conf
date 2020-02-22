@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/vpn/conf/classa/openswan
+cd ~/vpn/conf/classa/libreswan
 #get ipsec baseline configuration file
 sudo cp /etc/ipsec.conf ipsec.conf
 
