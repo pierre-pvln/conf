@@ -5,6 +5,14 @@
 . settings
 #
 #
-sudo nmap -p 22,500,4500 $classaIP -Pn -sU -sT
+echo ==
+echo == UDP ports for $classaIP ==
+echo ==
+sudo nmap -p 22,500,4500 $classaIP -Pn -sU
+
+echo ==
+echo == TCP ports for $classaIP ==
+echo ==
+sudo nmap -p 22,500 $classaIP -Pn -sT
 
 #DONE
