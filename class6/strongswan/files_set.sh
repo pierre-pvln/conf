@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd ~/vpn/conf/classp/strongswan
+cd ~/vpn/conf/class6/strongswan
 #set ipsec baseline configuration file
 sudo cp ipsec.conf /etc/ipsec.conf
 
