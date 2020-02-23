@@ -6,13 +6,13 @@
 #
 #
 echo ==
-echo == UDP ports for "${classpIP}" ==
+echo == UDP ports for "$class6IP" ==
 echo ==
-sudo nmap -p 22,500,4500 "${classpIP}" -Pn -sU
+sudo nmap -p 22,500,4500 "$class6IP" -Pn -sU
 
 echo ==
-echo == TCP ports for "${classpIP}" ==
+echo == TCP ports for "$class6IP" ==
 echo ==
-sudo nmap -p 22,500 "${classpIP}" -Pn -sT
+sudo nmap -p 22,500 "$class6IP" -Pn -sT
 
 #DONE
