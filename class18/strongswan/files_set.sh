@@ -3,6 +3,7 @@
 cd ~/vpn/conf/class18/strongswan
 #set ipsec baseline configuration file
 sudo cp ipsec.conf /etc/ipsec.conf
+sudo cp ipsec.secrets /etc/ipsec.secrets
 
 #set specific ipsec configuration file
 sudo cp RPI18-to-RPI6.conf /etc/ipsec.d/RPI18-to-RPI6.conf
